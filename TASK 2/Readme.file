@@ -1,0 +1,23 @@
+# TASK 2: TIME SERIES ANALYSIS
+## PROJECT OVERVIEW
+In this task, I performed a comprehensive Time Series Analysis on historical stock data (AAPL). The goal was to move beyond simple price tracking and uncover the underlying patterns that govern stock market movements, such as long-term trends and repeating seasonal cycles.
+
+## OBJECTIVES ACCOMPLISHED
+1. Data Visualization: Plotted the raw closing prices to identify general growth patterns and periods of high volatility.
+
+2. Time Series Decomposition: Used the statsmodels library to "deconstruct" the stock price into three distinct components:
+
+3. Trend: The smooth, long-term direction of the stock.
+
+4. Seasonality: Repeating patterns that occur at fixed intervals (e.g., yearly cycles).
+
+5. Residuals: Random "noise" or unexplained fluctuations in the data.
+
+6. Data Smoothing: Applied Moving Average Smoothing (30-day and 100-day windows) to filter out daily price "jitter" and reveal the true market direction.
+
+## KEY INSIGHTS
+1. Trend Analysis: The decomposition reveals a consistent upward trajectory for the selected stock over the study period.
+
+2. Volatility Handling: By comparing the 30-day and 100-day Moving Averages, we can see how short-term fluctuations eventually align with long-term growth.
+
+3. Noise Identification: The "Residuals" plot highlighted specific dates where the stock moved independently of typical trends, likely due to external news or market shocks.

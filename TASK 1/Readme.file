@@ -1,0 +1,25 @@
+# Task 1: Regression Analysis
+## Project Overview
+This project performs a Simple Linear Regression analysis to predict house prices based on the average number of rooms. The goal is to determine how much the physical size of a home (in terms of rooms) influences its market value.
+
+## Analysis Steps
+1. Data Cleaning: Added descriptive headers to the raw space-separated data.
+
+2. Data Splitting: Divided the data into 80% Training and 20% Testing sets to ensure the model's accuracy is tested on "unseen" data.
+
+3. Modeling: Built a Linear Regression model using scikit-learn.
+
+4. Evaluation: Measured performance using R-squared and Mean Squared Error (MSE).
+
+## Key Results
+1. R-squared Score: ~0.3708
+
+(Interpretation: Approximately 37% of the variation in house prices can be explained by the number of rooms alone.)
+
+2. Mean Squared Error (MSE): ~46.14
+
+(Interpretation: This represents the average squared difference between the actual and predicted values.)
+
+3. Coefficient: ~9.35
+
+(Interpretation: For every 1 additional room, the house price is predicted to increase by roughly $9,35.)

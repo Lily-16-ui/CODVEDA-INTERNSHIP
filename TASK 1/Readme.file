@@ -1,25 +1,25 @@
-# Task 1: Regression Analysis
-## Project Overview
-This project performs a Simple Linear Regression analysis to predict house prices based on the average number of rooms. The goal is to determine how much the physical size of a home (in terms of rooms) influences its market value.
+# PREDICTIVE MODELLING (CLASSIFICATION)
+## PROJECT OVERVIEW
+The goal of this project was to build a machine learning model that can predict whether a customer will cancel their service based on their usage patterns.
 
-## Analysis Steps
-1. Data Cleaning: Added descriptive headers to the raw space-separated data.
+## OBJECTIVES ACCOMPLISHED
+1. Data Preprocessing: * Converted categorical features (International Plan, Voice Mail Plan) into numerical format using LabelEncoder.
 
-2. Data Splitting: Divided the data into 80% Training and 20% Testing sets to ensure the model's accuracy is tested on "unseen" data.
+2. Handled the target variable (Churn) to prepare it for machine learning.
 
-3. Modeling: Built a Linear Regression model using scikit-learn.
+3. Applied StandardScaler to normalize numerical features, ensuring that variables with different scales (e.g., total minutes vs. number of calls) are treated equally by the models.
 
-4. Evaluation: Measured performance using R-squared and Mean Squared Error (MSE).
+4. Model Training & Comparison: * Implemented and evaluated three distinct classification algorithms: Logistic Regression, Decision Tree, and Random Forest.
 
-## Key Results
-1. R-squared Score: ~0.3708
+5. Model Evaluation: * Assessed performance using a variety of metrics: Accuracy, Precision, Recall, and the F1-score.
 
-(Interpretation: Approximately 37% of the variation in house prices can be explained by the number of rooms alone.)
+6. Focused specifically on Recall to ensure the model effectively identifies customers who are actually at risk of leaving.
 
-2. Mean Squared Error (MSE): ~46.14
+7. Hyperparameter Tuning: * Used GridSearchCV to automate the process of finding the optimal settings (n_estimators and max_depth) for the Random Forest model, resulting in an improved final accuracy score.
 
-(Interpretation: This represents the average squared difference between the actual and predicted values.)
+## KEY FINDINGS
+1. Best Performing Model: [Insert the name of the model that got the highest accuracy from your console here, e.g., Random Forest].
 
-3. Coefficient: ~9.35
+2. Final Accuracy: [Insert your final accuracy % from the console here].
 
-(Interpretation: For every 1 additional room, the house price is predicted to increase by roughly $9,35.)
+3. Insight: Features such as 'Customer Service Calls' and 'Total Day Charge' were significant indicators of whether a customer was likely to churn.

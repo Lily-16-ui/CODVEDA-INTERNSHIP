@@ -1,0 +1,25 @@
+# PREDICTIVE MODELLING (CLASSIFICATION)
+## PROJECT OVERVIEW
+The goal of this project was to build a machine learning model that can predict whether a customer will cancel their service based on their usage patterns.
+
+## OBJECTIVES ACCOMPLISHED
+1. Data Preprocessing: * Converted categorical features (International Plan, Voice Mail Plan) into numerical format using LabelEncoder.
+
+2. Handled the target variable (Churn) to prepare it for machine learning.
+
+3. Applied StandardScaler to normalize numerical features, ensuring that variables with different scales (e.g., total minutes vs. number of calls) are treated equally by the models.
+
+4. Model Training & Comparison: * Implemented and evaluated three distinct classification algorithms: Logistic Regression, Decision Tree, and Random Forest.
+
+5. Model Evaluation: * Assessed performance using a variety of metrics: Accuracy, Precision, Recall, and the F1-score.
+
+6. Focused specifically on Recall to ensure the model effectively identifies customers who are actually at risk of leaving.
+
+7. Hyperparameter Tuning: * Used GridSearchCV to automate the process of finding the optimal settings (n_estimators and max_depth) for the Random Forest model, resulting in an improved final accuracy score.
+
+## KEY FINDINGS
+1. Best Performing Model: [Insert the name of the model that got the highest accuracy from your console here, e.g., Random Forest].
+
+2. Final Accuracy: [Insert your final accuracy % from the console here].
+
+3. Insight: Features such as 'Customer Service Calls' and 'Total Day Charge' were significant indicators of whether a customer was likely to churn.

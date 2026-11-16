@@ -1,0 +1,39 @@
+C:\Users\JESULAYOMI\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\JESULAYOMI\PycharmProjects\PythonProject1\Python_file.py
+--- Original Data Preview ---
+  symbol        date      open      high       low     close    volume
+0    AAL  2014-01-02   25.0700   25.8200   25.0600   25.3600   8998943
+1   AAPL  2014-01-02   79.3828   79.5756   78.8601   79.0185  58791957
+2    AAP  2014-01-02  110.3600  111.8800  109.2900  109.7400    542711
+3   ABBV  2014-01-02   52.1200   52.3300   51.5200   51.9800   4569061
+4    ABC  2014-01-02   70.1100   70.2300   69.4800   69.8900   1148391
+
+Missing values before cleaning:
+symbol     0
+date       0
+open      11
+high       8
+low        8
+close      0
+volume     0
+dtype: int64
+C:\Users\JESULAYOMI\PycharmProjects\PythonProject1\Python_file.py:31: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
+See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
+  obj_cols = df.select_dtypes(include=['object']).columns
+
+Removed 0 duplicate rows.
+Standardized date column: date
+Standardized all text columns to UPPERCASE.
+
+Missing values after cleaning:
+symbol    0
+date      0
+open      0
+high      0
+low       0
+close     0
+volume    0
+dtype: int64
+
+SUCCESS: Cleaned data saved as 'cleaned_dataset.csv'
+
+Process finished with exit code 0

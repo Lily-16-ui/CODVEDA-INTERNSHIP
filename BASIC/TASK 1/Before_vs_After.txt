@@ -1,0 +1,21 @@
+BEFORE
+Missing values before cleaning:
+symbol     0
+date       0
+open      11
+high       8
+low        8
+close      0
+volume     0
+dtype: int64
+
+AFTER
+Missing values after cleaning:
+symbol    0
+date      0
+open      0
+high      0
+low       0
+close     0
+volume    0
+dtype: int64

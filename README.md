@@ -88,4 +88,4 @@ This repository serves as a record of my practical learning and hands-on experie
 ---
 
 **Author:** [Lily-16-ui](https://github.com/Lily-16-ui)  
-**GitHub Repository:** [CODVEDA-INTERNSHIP](https://github.com/Lily-16-ui/CODVEDA-INTERNSHIP)
+**GitHub Repository:** [CODVEDA-INTERNSHIP](https://github.com/Lily-16-ui/CODVEDA-INTERNSHIP) 
